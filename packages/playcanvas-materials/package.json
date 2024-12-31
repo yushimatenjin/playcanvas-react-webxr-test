@@ -1,0 +1,20 @@
+{
+  "name": "@repo/materials",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/materials/index.ts"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+
+  "devDependencies": {
+    "@playcanvas/react": "^0.1.22",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "playcanvas": "^2.2.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "ESNext",
+      "lib": ["ES2018", "DOM"],
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "dist",
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "@repo/materials": ["src/materials/*"],
+      },
+    },
+  "include": [
+      "src/**/*.ts",
+      "src/**/*.d.ts"  
+    ],
+    "exclude": ["node_modules", "dist"]
+  }

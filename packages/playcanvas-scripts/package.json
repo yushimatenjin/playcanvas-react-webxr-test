@@ -1,0 +1,12 @@
+{
+  "name": "@repo/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/scripts/index.ts"
+  },
+  "scripts": {},
+  "dependencies": {
+    "playcanvas": "^2.2.2"
+  }
+}
